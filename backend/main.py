@@ -13,6 +13,11 @@ CORS(app)
 API_KEY = os.getenv("OPENROUTER_API_KEY")
 MODEL = os.getenv("OPENROUTER_MODEL", "mistralai/mistral-7b-instruct")
 
+@app.route('/')
+def home():
+    return "Backend is running!"
+
+
 def analyze_email(email):
     headers = {
         "Authorization": f"Bearer {API_KEY}",

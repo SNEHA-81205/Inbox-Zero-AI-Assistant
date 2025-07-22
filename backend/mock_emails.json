@@ -1,0 +1,27 @@
+[
+  {
+    "subject": "Job Interview Invitation",
+    "from": "hr@example.com",
+    "body": "Dear Sneha, We are pleased to invite you for an interview on 22nd July at 2 PM. Please confirm your availability."
+  },
+  {
+    "subject": "Invoice Due Reminder",
+    "from": "billing@host.com",
+    "body": "Hi, This is a reminder that your invoice #12345 is overdue and must be paid by July 25th to avoid service interruption."
+  },
+  {
+    "subject": "Welcome to Newsletter",
+    "from": "newsletter@news.com",
+    "body": "Thank you for subscribing to our weekly tech updates. We hope you enjoy staying informed!"
+  },
+  {
+    "subject": "Password Expiry Warning",
+    "from": "it-support@company.com",
+    "body": "Your password will expire in 3 days. Please reset it to avoid access issues."
+  },
+  {
+    "subject": "Casual Team Lunch",
+    "from": "teamlead@company.com",
+    "body": "Hi Team, We’re planning a casual lunch on Friday at 1 PM. Let me know if you can join."
+  }
+]

@@ -13,10 +13,6 @@ CORS(app)
 API_KEY = os.getenv("OPENROUTER_API_KEY")
 MODEL = os.getenv("OPENROUTER_MODEL", "mistralai/mistral-7b-instruct")
 
-@app.route('/')
-def home():
-    return "Backend is running!"
-
 
 def analyze_email(email):
     headers = {
@@ -75,6 +71,12 @@ def inbox():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+@app.route('/')
+def home():
+    return "Backend is running!"
+
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))  # Required for Render

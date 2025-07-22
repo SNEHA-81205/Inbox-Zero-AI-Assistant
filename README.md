@@ -10,9 +10,7 @@
 1. Backend ->	Python + FastAPI
 2. Model API -> OpenRouter (Mistral 7B instruct)
 3. Frontend -> React + TailwindCSS
-4. Deployment:
-   i. Frontend: Render / localhost via npm start
-   ii. Backend: Render / localhost via python main.py
+4. Deployment -> Render and vercel
 6. Bonus	-> Docker, GitHub Actions, Flask
 
 ## Here is the glimpse of the project
